@@ -33,6 +33,10 @@ if __name__ == "__main__":
         max_iter=10,
         gamma=0.7,
         alpha=0.01)
+    
+    ## need real experiences data
+    tdAlgorithms.sarsa(max_iter=1500,
+                       policy=random_policy)
 
 
 
