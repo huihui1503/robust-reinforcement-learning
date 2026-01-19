@@ -1,0 +1,1712 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://www.mdpi.com/2504-4990/4/1/13">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2504-4990"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moos</foaf:surname>
+                        <foaf:givenName>Janosch</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hansel</foaf:surname>
+                        <foaf:givenName>Kay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdulsamad</foaf:surname>
+                        <foaf:givenName>Hany</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stark</foaf:surname>
+                        <foaf:givenName>Svenja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clever</foaf:surname>
+                        <foaf:givenName>Debora</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peters</foaf:surname>
+                        <foaf:givenName>Jan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1114"/>
+        <dc:title>Robust Reinforcement Learning: A Review of Foundations and Recent Advances</dc:title>
+        <dcterms:abstract>Reinforcement learning (RL) has become a highly successful framework for learning in Markov decision processes (MDP). Due to the adoption of RL in realistic and complex environments, solution robustness becomes an increasingly important aspect of RL deployment. Nevertheless, current RL algorithms struggle with robustness to uncertainty, disturbances, or structural changes in the environment. We survey the literature on robust approaches to reinforcement learning and categorize these methods in four different ways: (i) Transition robust designs account for uncertainties in the system dynamics by manipulating the transition probabilities between states; (ii) Disturbance robust designs leverage external forces to model uncertainty in the system behavior; (iii) Action robust designs redirect transitions of the system by corrupting an agent’s output; (iv) Observation robust designs exploit or distort the perceived system state of the policy. Each of these robust designs alters a different aspect of the MDP. Additionally, we address the connection of robustness to the risk-based and entropy-regularized RL formulations. The resulting survey covers all fundamental concepts underlying the approaches to robust reinforcement learning and their recent advances.</dcterms:abstract>
+        <dc:date>2022-03-19</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Robust Reinforcement Learning</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/2504-4990/4/1/13</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-02 20:34:17</dcterms:dateSubmitted>
+        <bib:pages>276-315</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2504-4990">
+        <prism:volume>4</prism:volume>
+        <dc:title>Machine Learning and Knowledge Extraction</dc:title>
+        <dc:identifier>DOI 10.3390/make4010013</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>MAKE</dcterms:alternative>
+        <dc:identifier>ISSN 2504-4990</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1114">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1114/Moos et al. - 2022 - Robust Reinforcement Learning A Review of Foundations and Recent Advances.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-925953-86-2">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-925953-86-2</dc:identifier>
+                <dc:title>Machine Learning and Soft Computing</dc:title>
+                <dc:identifier>DOI 10.5121/csit.2023.130205</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Academy and Industry Research Collaboration Center (AIRCC)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pullum</foaf:surname>
+                        <foaf:givenName>Laura L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1495"/>
+        <dc:title>Review of Metrics to Measure the Stability, Robustness and Resilience of Reinforcement Learning</dc:title>
+        <dcterms:abstract>Reinforcement learning (RL) has received significant interest in recent years, due primarily to the successes of deep reinforcement learning at solving many challenging tasks such as playing Chess, Go and online computer games. However, with the increasing focus on RL, applications outside of gaming and simulated environments require understanding the robustness, stability and resilience of RL methods. To this end, we characterize the available literature on these three behaviors as they pertain to RL. We classify the quantification approaches used, determine the objectives of the desired behaviors, and provide a decision tree for selecting metrics to quantify the behaviors.</dcterms:abstract>
+        <dc:date>2023-01-28</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aircconline.com/csit/papers/vol13/csit130205.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-02 20:34:47</dcterms:dateSubmitted>
+        <bib:pages>59-78</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>4th International Conference on Machine Learning and Soft Computing</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1495">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1495/Pullum - 2023 - Review of Metrics to Measure the Stability, Robustness and Resilience of Reinforcement Learning.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1498">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heger</foaf:surname>
+                        <foaf:givenName>Matthias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1497"/>
+        <dc:title>Revised submission to the 11th International Machine Learning Conference ML-94 Consideration of Risk in Reinforcement Learning</dc:title>
+        <dcterms:abstract>Most Reinforcement Learning (RL) work supposes policies for sequential decision tasks to be optimal that minimize the expected total discounted cost (e. g. QLearning [Wat 89], AHC [Bar Sut And 83]). On the other hand, it is well known that it is not always reliable and can be treacherous to use the expected value as a decision criterion [Tha 87]. A lot of alternative decision criteria have been suggested in decision theory to get a more sophisticated considaration of risk but most RL researchers have not concerned themselves with this subject until now. The purpose of this paper is to draw the reader’s attention to the problems of the expected value criterion in Markov Decision Processes and to give Dynamic Programming algorithms for an alternative criterion, namely the Minimax criterion. A counterpart to Watkins’ Q-Learning related to the Minimax criterion is presented. The new algorithm, called Q$ − Learning , finds policies that minimize the worst-case total discounted costs. Most mathematical details aren’t presented here but can be found in [Heg 94].</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1497">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1497/Heger - Revised submission to the 11th International Machine Learning Conference ML-94 Consideration of Risk.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1532">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bagnell</foaf:surname>
+                        <foaf:givenName>J Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ng</foaf:surname>
+                        <foaf:givenName>Andrew Y</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schneider</foaf:surname>
+                        <foaf:givenName>Jeff G</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1531"/>
+        <dc:title>Solving Uncertain Markov Decision Processes</dc:title>
+        <dcterms:abstract>The authors consider the fundamental problem of nding good policies in uncertain models. It is demonstrated that although the general problem of nding the best policy with respect to the worst model is NP-hard, in the special case of a convex uncertainty set the problem is tractable. A stochastic dynamic game is proposed, and the security equilibrium solution of the game is shown to correspond to the value function under the worst model and the optimal controller. The authors demonstrate that the uncertain model approach can be used to solve a class of nearly Markovian Decision Problems, providing lower bounds on performance in stochastic models with higher-order interactions. The framework considered establishes connections between and generalizes paradigms of stochastic optimal, mini-max, and H1/robust control. Applications are considered, including robustness in reinforcement learning, planning in nearly Markovian decision processes, and bounding error due to sensor discretization in noisy, continuous state-spaces.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1531">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1531/Bagnell et al. - Solving Uncertain Markov Decision Processes.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-0-262-25691-9">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-0-262-25691-9</dc:identifier>
+                <dc:title>Advances in Neural Information Processing Systems 19</dc:title>
+                <dc:identifier>DOI 10.7551/mitpress/7503.003.0197</dc:identifier>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>The MIT Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schölkopf</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Platt</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hofmann</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Huan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mannor</foaf:surname>
+                        <foaf:givenName>Shie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1618"/>
+        <dc:title>The Robustness-Performance Tradeoff in Markov Decision Processes</dc:title>
+        <dcterms:abstract>Computation of a satisfactory control policy for a Markov decision process when the parameters of the model are not exactly known is a problem encountered in many practical applications. The traditional robust approach is based on a worstcase analysis and may lead to an overly conservative policy. In this paper we consider the tradeoff between nominal performance and the worst case performance over all possible models. Based on parametric linear programming, we propose a method that computes the whole set of Pareto efﬁcient policies in the performancerobustness plane when only the reward parameters are subject to uncertainty. In the more general case when the transition probabilities are also subject to error, we show that the strategy with the “optimal” tradeoff might be non-Markovian and hence is in general not tractable.</dcterms:abstract>
+        <dc:date>2007-9-7</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://direct.mit.edu/books/book/3168/chapter/87591/The-Robustness-Performance-Tradeoff-in-Markov</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-07 11:07:48</dcterms:dateSubmitted>
+        <bib:pages>1537-1544</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_1618">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1618/Xu and Mannor - 2007 - The Robustness-Performance Tradeoff in Markov Decision Processes.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://direct.mit.edu/neco/article/17/2/335-359/6920">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0899-7667,%201530-888X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morimoto</foaf:surname>
+                        <foaf:givenName>Jun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Doya</foaf:surname>
+                        <foaf:givenName>Kenji</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1665"/>
+        <dc:title>Robust Reinforcement Learning</dc:title>
+        <dcterms:abstract>This letter proposes a new reinforcement learning (RL) paradigm that explicitly takes into account input disturbance as well as modeling errors. The use of environmental models in RL is quite popular for both off-line learning using simulations and for online action planning. However, the difference between the model and the real environment can lead to unpredictable, and often unwanted, results. Based on the theory of H
+              ∞
+              control, we consider a differential game in which a “disturbing” agent tries to make the worst possible disturbance while a “control” agent tries to make the best control input. The problem is formulated as finding a min-max solution of a value function that takes into account the amount of the reward and the norm of the disturbance. We derive online learning algorithms for estimating the value function and for calculating the worst disturbance and the best control in reference to the value function. We tested the paradigm, which we call robust reinforcement learning (RRL), on the control task of an inverted pendulum. In the linear domain, the policy and the value function learned by online algorithms coincided with those derived analytically by the linear H
+              ∞
+              control theory. For a fully nonlinear swing-up task, RRL achieved robust performance with changes in the pendulum weight and friction, while a standard reinforcement learning algorithm could not deal with these changes. We also applied RRL to the cart-pole swing-up task, and a robust swing-up policy was acquired.</dcterms:abstract>
+        <dc:date>2005-02-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://direct.mit.edu/neco/article/17/2/335-359/6920</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-08 12:52:53</dcterms:dateSubmitted>
+        <bib:pages>335-359</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0899-7667,%201530-888X">
+        <prism:volume>17</prism:volume>
+        <dc:title>Neural Computation</dc:title>
+        <dc:identifier>DOI 10.1162/0899766053011528</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Neural Computation</dcterms:alternative>
+        <dc:identifier>ISSN 0899-7667, 1530-888X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1665">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1665/Morimoto and Doya - 2005 - Robust Reinforcement Learning.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1735">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tessler</foaf:surname>
+                        <foaf:givenName>Chen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Efroni</foaf:surname>
+                        <foaf:givenName>Yonathan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mannor</foaf:surname>
+                        <foaf:givenName>Shie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1734"/>
+        <dc:subject>read</dc:subject>
+        <dc:title>Action Robust Reinforcement Learning and Applications in Continuous Control</dc:title>
+        <dcterms:abstract>A policy is said to be robust if it maximizes the reward while considering a bad, or even adversarial, model. In this work we formalize two new criteria of robustness to action uncertainty. Speciﬁcally, we consider two scenarios in which the agent attempts to perform an action a, and (i) with probability α, an alternative adversarial action a¯ is taken, or (ii) an adversary adds a perturbation to the selected action in the case of continuous action space. We show that our criteria are related to common forms of uncertainty in robotics domains, such as the occurrence of abrupt forces, and suggest algorithms in the tabular case. Building on the suggested algorithms, we generalize our approach to deep reinforcement learning (DRL) and provide extensive experiments in the various MuJoCo domains. Our experiments show that not only does our approach produce robust policies, but it also improves the performance in the absence of perturbations. This generalization indicates that action-robustness can be thought of as implicit regularization in RL problems.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1734">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1734/Tessler et al. - Action Robust Reinforcement Learning and Applications in Continuous Control.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1702.02284">
+        <z:itemType>preprint</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Sandy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Papernot</foaf:surname>
+                        <foaf:givenName>Nicolas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goodfellow</foaf:surname>
+                        <foaf:givenName>Ian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duan</foaf:surname>
+                        <foaf:givenName>Yan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abbeel</foaf:surname>
+                        <foaf:givenName>Pieter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1769"/>
+        <dc:title>Adversarial Attacks on Neural Network Policies</dc:title>
+        <dcterms:abstract>Machine learning classifiers are known to be vulnerable to inputs maliciously constructed by adversaries to force misclassification. Such adversarial examples have been extensively studied in the context of computer vision applications. In this work, we show adversarial attacks are also effective when targeting neural network policies in reinforcement learning. Specifically, we show existing adversarial example crafting techniques can be used to significantly degrade test-time performance of trained policies. Our threat model considers adversaries capable of introducing small perturbations to the raw input of the policy. We characterize the degree of vulnerability across tasks and training algorithms, for a subclass of adversarial-example attacks in white-box and black-box settings. Regardless of the learned task or training algorithm, we observe a significant drop in performance, even with small adversarial perturbations that do not interfere with human perception. Videos are available at http://rll.berkeley.edu/adversarial.</dcterms:abstract>
+        <dc:date>2017-02-08</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1702.02284</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-09 14:48:02</dcterms:dateSubmitted>
+        <dc:description>arXiv:1702.02284 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1702.02284</dc:identifier>
+        <prism:number>arXiv:1702.02284</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1769">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1769/Huang et al. - 2017 - Adversarial Attacks on Neural Network Policies.pdf"/>
+        <dc:title>Huang et al. - 2017 - Adversarial Attacks on Neural Network Policies.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1793">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chae</foaf:surname>
+                        <foaf:givenName>Jongseong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Seungyul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jung</foaf:surname>
+                        <foaf:givenName>Whiyoung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cho</foaf:surname>
+                        <foaf:givenName>Myungsik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Choi</foaf:surname>
+                        <foaf:givenName>Sungho</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sung</foaf:surname>
+                        <foaf:givenName>Youngchul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1794"/>
+        <dc:title>Robust Imitation Learning against Variations in Environment Dynamics</dc:title>
+        <dcterms:abstract>In this paper, we propose a robust imitation learning (IL) framework that improves the robustness of IL when environment dynamics are perturbed. The existing IL framework trained in a single environment can catastrophically fail with perturbations in environment dynamics because it does not capture the situation that underlying environment dynamics can be changed. Our framework effectively deals with environments with varying dynamics by imitating multiple experts in sampled environment dynamics to enhance the robustness in general variations in environment dynamics. In order to robustly imitate the multiple sample experts, we minimize the risk with respect to the Jensen-Shannon divergence between the agent’s policy and each of the sample experts. Numerical results show that our algorithm significantly improves robustness against dynamics perturbations compared to conventional IL baselines.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1794">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1794/Chae et al. - Robust Imitation Learning against Variations in Environment Dynamics.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_2032">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jang</foaf:surname>
+                        <foaf:givenName>Youngsoo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Geon-Hyeong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Jongmin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sohn</foaf:surname>
+                        <foaf:givenName>Sungryull</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Byoungjip</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Honglak</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Moontae</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2031"/>
+        <dc:title>SafeDICE: Offline Safe Imitation Learning with Non-Preferred Demonstrations</dc:title>
+        <dcterms:abstract>We consider offline safe imitation learning (IL), where the agent aims to learn the safe policy that mimics preferred behavior while avoiding non-preferred behavior from non-preferred demonstrations and unlabeled demonstrations. This problem setting corresponds to various real-world scenarios, where satisfying safety constraints is more important than maximizing the expected return. However, it is very challenging to learn the policy to avoid constraint-violating (i.e. non-preferred) behavior, as opposed to standard imitation learning which learns the policy to mimic given demonstrations. In this paper, we present a hyperparameter-free offline safe IL algorithm, SafeDICE, that learns safe policy by leveraging the non-preferred demonstrations in the space of stationary distributions. Our algorithm directly estimates the stationary distribution corrections of the policy that imitate the demonstrations excluding the non-preferred behavior. In the experiments, we demonstrate that our algorithm learns a more safe policy that satisfies the cost constraint without degrading the reward performance, compared to baseline algorithms.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2031">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2031/Jang et al. - SafeDICE Offline Safe Imitation Learning with Non-Preferred Demonstrations.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/document/10602544/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2168-2267,%202168-2275"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zare</foaf:surname>
+                        <foaf:givenName>Maryam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kebria</foaf:surname>
+                        <foaf:givenName>Parham M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khosravi</foaf:surname>
+                        <foaf:givenName>Abbas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nahavandi</foaf:surname>
+                        <foaf:givenName>Saeid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2077"/>
+        <dc:title>A Survey of Imitation Learning: Algorithms, Recent Developments, and Challenges</dc:title>
+        <dcterms:abstract>In recent years, the development of robotics and artiﬁcial intelligence (AI) systems has been nothing short of remarkable. As these systems continue to evolve, they are being utilized in increasingly complex and unstructured environments, such as autonomous driving, aerial robotics, and natural language processing. As a consequence, programming their behaviors manually or deﬁning their behavior through the reward functions [as done in reinforcement learning (RL)] has become exceedingly difﬁcult. This is because such environments require a high degree of ﬂexibility and adaptability, making it challenging to specify an optimal set of rules or reward signals that can account for all the possible situations. In such environments, learning from an expert’s behavior through imitation is often more appealing. This is where imitation learning (IL) comes into play - a process where desired behavior is learned by imitating an expert’s behavior, which is provided through demonstrations.This article aims to provide an introduction to IL and an overview of its underlying assumptions and approaches. It also offers a detailed description of recent advances and emerging areas of research in the ﬁeld. Additionally, this article discusses how researchers have addressed common challenges associated with IL and provides potential directions for future research. Overall, the goal of this article is to provide a comprehensive guide to the growing ﬁeld of IL in robotics and AI.</dcterms:abstract>
+        <dc:date>12/2024</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>A Survey of Imitation Learning</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10602544/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-17 12:24:04</dcterms:dateSubmitted>
+        <dc:rights>https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html</dc:rights>
+        <bib:pages>7173-7186</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2168-2267,%202168-2275">
+        <prism:volume>54</prism:volume>
+        <dc:title>IEEE Transactions on Cybernetics</dc:title>
+        <dc:identifier>DOI 10.1109/TCYB.2024.3395626</dc:identifier>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>IEEE Trans. Cybern.</dcterms:alternative>
+        <dc:identifier>ISSN 2168-2267, 2168-2275</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_2077">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2077/Zare et al. - 2024 - A Survey of Imitation Learning Algorithms, Recent Developments, and Challenges.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ojs.aaai.org/index.php/AAAI/article/view/29265">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2374-3468,%202159-5399"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Siyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Xun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zuo</foaf:surname>
+                        <foaf:givenName>Rongchang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenName>Kewu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cui</foaf:surname>
+                        <foaf:givenName>Lingfei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ding</foaf:surname>
+                        <foaf:givenName>Jishiyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Peng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ma</foaf:surname>
+                        <foaf:givenName>Zhe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2317"/>
+        <dc:title>Robust Visual Imitation Learning with Inverse Dynamics Representations</dc:title>
+        <dcterms:abstract>Imitation learning (IL) has achieved considerable success in solving complex sequential decision-making problems. However, current IL methods mainly assume that the environment for learning policies is the same as the environment for collecting expert datasets. Therefore, these methods may fail to work when there are slight differences between the learning and expert environments, especially for challenging problems with high-dimensional image observations. However, in realworld scenarios, it is rare to have the chance to collect expert trajectories precisely in the target learning environment. To address this challenge, we propose a novel robust imitation learning approach, where we develop an inverse dynamics state representation learning objective to align the expert environment and the learning environment. With the abstract state representation, we design an effective reward function, which thoroughly measures the similarity between behavior data and expert data not only element-wise, but also from the trajectory level. We conduct extensive experiments to evaluate the proposed approach under various visual perturbations and in diverse visual control tasks. Our approach can achieve a near-expert performance in most environments, and significantly outperforms the state-of-the-art visual IL methods and robust IL methods.</dcterms:abstract>
+        <dc:date>2024-03-24</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.aaai.org/index.php/AAAI/article/view/29265</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 09:30:54</dcterms:dateSubmitted>
+        <bib:pages>13609-13618</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2374-3468,%202159-5399">
+        <prism:volume>38</prism:volume>
+        <dc:title>Proceedings of the AAAI Conference on Artificial Intelligence</dc:title>
+        <dc:identifier>DOI 10.1609/aaai.v38i12.29265</dc:identifier>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>AAAI</dcterms:alternative>
+        <dc:identifier>ISSN 2374-3468, 2159-5399</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_2317">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2317/Li et al. - 2024 - Robust Visual Imitation Learning with Inverse Dynamics Representations.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2204.11446">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gangwani</foaf:surname>
+                        <foaf:givenName>Tanmay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Yuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Jian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2321"/>
+        <link:link rdf:resource="#item_2318"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Imitation Learning from Observations under Transition Model Disparity</dc:title>
+        <dcterms:abstract>Learning to perform tasks by leveraging a dataset of expert observations, also known as imitation learning from observations (ILO), is an important paradigm for learning skills without access to the expert reward function or the expert actions. We consider ILO in the setting where the expert and the learner agents operate in different environments, with the source of the discrepancy being the transition dynamics model. Recent methods for scalable ILO utilize adversarial learning to match the state-transition distributions of the expert and the learner, an approach that becomes challenging when the dynamics are dissimilar. In this work, we propose an algorithm that trains an intermediary policy in the learner environment and uses it as a surrogate expert for the learner. The intermediary policy is learned such that the state transitions generated by it are close to the state transitions in the expert dataset. To derive a practical and scalable algorithm, we employ concepts from prior work on estimating the support of a probability distribution. Experiments using MuJoCo locomotion tasks highlight that our method compares favorably to the baselines for ILO with transition dynamics mismatch 1.</dcterms:abstract>
+        <dc:date>2022-04-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2204.11446</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 09:30:56</dcterms:dateSubmitted>
+        <dc:description>arXiv:2204.11446 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2204.11446</dc:identifier>
+        <prism:number>arXiv:2204.11446</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2321">
+       <rdf:value>Comment: ICLR 2022 camera-ready</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2318">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2318/Gangwani et al. - 2022 - Imitation Learning from Observations under Transition Model Disparity.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2110.03684">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fickinger</foaf:surname>
+                        <foaf:givenName>Arnaud</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cohen</foaf:surname>
+                        <foaf:givenName>Samuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Russell</foaf:surname>
+                        <foaf:givenName>Stuart</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Amos</foaf:surname>
+                        <foaf:givenName>Brandon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2324"/>
+        <link:link rdf:resource="#item_2322"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Robotics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Cross-Domain Imitation Learning via Optimal Transport</dc:title>
+        <dcterms:abstract>Cross-domain imitation learning studies how to leverage expert demonstrations of one agent to train an imitation agent with a different embodiment or morphology. Comparing trajectories and stationary distributions between the expert and imitation agents is challenging because they live on different systems that may not even have the same dimensionality. We propose Gromov-Wasserstein Imitation Learning (GWIL), a method for cross-domain imitation that uses the Gromov-Wasserstein distance to align and compare states between the different spaces of the agents. Our theory formally characterizes the scenarios where GWIL preserves optimality, revealing its possibilities and limitations. We demonstrate the effectiveness of GWIL in non-trivial continuous control domains ranging from simple rigid transformation of the expert domain to arbitrary transformation of the state-action space.</dcterms:abstract>
+        <dc:date>2022-04-25</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2110.03684</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 09:30:59</dcterms:dateSubmitted>
+        <dc:description>arXiv:2110.03684 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2110.03684</dc:identifier>
+        <prism:number>arXiv:2110.03684</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2324">
+       <rdf:value>Comment: ICLR 2022</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2322">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2322/Fickinger et al. - 2022 - Cross-Domain Imitation Learning via Optimal Transport.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1703.01703">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stadie</foaf:surname>
+                        <foaf:givenName>Bradly C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abbeel</foaf:surname>
+                        <foaf:givenName>Pieter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutskever</foaf:surname>
+                        <foaf:givenName>Ilya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2327"/>
+        <link:link rdf:resource="#item_2325"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Third-Person Imitation Learning</dc:title>
+        <dcterms:abstract>Reinforcement learning (RL) makes it possible to train agents capable of achieving sophisticated goals in complex and uncertain environments. A key difﬁculty in reinforcement learning is specifying a reward function for the agent to optimize. Traditionally, imitation learning in RL has been used to overcome this problem. Unfortunately, hitherto imitation learning methods tend to require that demonstrations are supplied in the ﬁrst-person: the agent is provided with a sequence of states and a speciﬁcation of the actions that it should have taken. While powerful, this kind of imitation learning is limited by the relatively hard problem of collecting ﬁrst-person demonstrations. Humans address this problem by learning from third-person demonstrations: they observe other humans perform tasks, infer the task, and accomplish the same task themselves.</dcterms:abstract>
+        <dc:date>2019-09-22</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1703.01703</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 09:31:12</dcterms:dateSubmitted>
+        <dc:description>arXiv:1703.01703 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1703.01703</dc:identifier>
+        <prism:number>arXiv:1703.01703</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2327">
+        <rdf:value>Comment: Only changed the abstract to remove unneeded hyphens</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2325">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2325/Stadie et al. - 2019 - Third-Person Imitation Learning.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2507.22380">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Yifei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Yuzhe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>D'urso</foaf:surname>
+                        <foaf:givenName>Giovanni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lawrance</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tidd</foaf:surname>
+                        <foaf:givenName>Brendan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2334"/>
+        <link:link rdf:resource="#item_2328"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Robotics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Improving Generalization Ability of Robotic Imitation Learning by Resolving Causal Confusion in Observations</dc:title>
+        <dcterms:abstract>Recent developments in imitation learning have considerably advanced robotic manipulation. However, current techniques in imitation learning can suffer from poor generalization, limiting performance even under relatively minor domain shifts. In this work, we aim to enhance the generalization capabilities of complex imitation learning algorithms to handle unpredictable changes from the training environments to deployment environments. To avoid confusion caused by observations that are not relevant to the target task, we propose to explicitly learn the causal relationship between observation components and expert actions, employing a framework similar to [6], where a causal structural function is learned by intervention on the imitation learning policy. Disentangling the feature representation from image input as in [6] is hard to satisfy in complex imitation learning process in robotic manipulation, we theoretically clarify that this requirement is not necessary in causal relationship learning. Therefore, we propose a simple causal structure learning framework that can be easily embedded in recent imitation learning architectures, such as the Action Chunking Transformer [29]. We demonstrate our approach using a simulation of the ALOHA [29] bimanual robot arms in Mujoco, and show that the method can considerably mitigate the generalization problem of existing complex imitation learning algorithms.</dcterms:abstract>
+        <dc:date>2025-07-30</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2507.22380</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 10:22:10</dcterms:dateSubmitted>
+        <dc:description>arXiv:2507.22380 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2507.22380</dc:identifier>
+        <prism:number>arXiv:2507.22380</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2334">
+       <rdf:value>Comment: 13 pages</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2328">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2328/Chen et al. - 2025 - Improving Generalization Ability of Robotic Imitation Learning by Resolving Causal Confusion in Obse.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.jair.org/index.php/jair/article/view/15819">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1076-9757"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Xingrui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Bo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tsang</foaf:surname>
+                        <foaf:givenName>Ivor W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2329"/>
+        <dc:title>USN: A Robust Imitation Learning Method against Diverse Action Noise</dc:title>
+        <dcterms:abstract>Learning from imperfect demonstrations is a crucial challenge in imitation learning (IL). Unlike existing works that still rely on the enormous effort of expert demonstrators, we consider a more cost-effective option for obtaining a large number of demonstrations. That is, hire annotators to label actions for existing image records in realistic scenarios. However, action noise can occur when annotators are not domain experts or encounter confusing states. In this work, we introduce two particular forms of action noise, i.e., state-independent and state-dependent action noise. Previous IL methods fail to achieve expert-level performance when the demonstrations contain action noise, especially the state-dependent action noise. To mitigate the harmful effects of action noises, we propose a robust learning paradigm called USN (Uncertainty-aware Sample-selection with Negative learning). The model first estimates the predictive uncertainty for all demonstration data and then selects samples with high loss based on the uncertainty measures. Finally, it updates the model parameters with additional negative learning on the selected samples. Empirical results in Box2D tasks and Atari games show that USN consistently improves the final rewards of behavioral cloning, online imitation learning, and offline imitation learning methods under various action noises. The ratio of significant improvements is up to 94.44%. Moreover, our method scales to conditional imitation learning with real-world noisy commands in urban driving.</dcterms:abstract>
+        <dc:date>2024-04-21</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>USN</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.jair.org/index.php/jair/article/view/15819</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 10:22:14</dcterms:dateSubmitted>
+        <bib:pages>1237-1280</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1076-9757">
+        <prism:volume>79</prism:volume>
+        <dc:title>Journal of Artificial Intelligence Research</dc:title>
+        <dc:identifier>DOI 10.1613/jair.1.15819</dc:identifier>
+        <dcterms:alternative>jair</dcterms:alternative>
+        <dc:identifier>ISSN 1076-9757</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_2329">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2329/Yu et al. - 2024 - USN A Robust Imitation Learning Method against Diverse Action Noise.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2505.04897">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kobayashi</foaf:surname>
+                        <foaf:givenName>Taisuke</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2337"/>
+        <link:link rdf:resource="#item_2330"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Robotics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>CubeDAgger: Improved Robustness of Interactive Imitation Learning without Violation of Dynamic Stability</dc:title>
+        <dcterms:abstract>Interactive imitation learning makes an agent’s control policy robust by stepwise supervisions from an expert. The recent algorithms mostly employ expert-agent switching systems to reduce the expert’s burden by limitedly selecting the supervision timing. However, the precise selection is difficult and such a switching causes abrupt changes in actions, damaging the dynamic stability. This paper therefore proposes a novel method, so-called CubeDAgger, which improves robustness while reducing dynamic stability violations by making three improvements to a baseline method, EnsembleDAgger. The first improvement adds a regularization to explicitly activate the threshold for deciding the supervision timing. The second transforms the expert-agent switching system to an optimal consensus system of multiple action candidates. Third, autoregressive colored noise to the actions is introduced to make the stochastic exploration consistent over time. These improvements are verified by simulations, showing that the learned policies are sufficiently robust while maintaining dynamic stability during interaction.</dcterms:abstract>
+        <dc:date>2025-05-08</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>CubeDAgger</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2505.04897</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 10:22:15</dcterms:dateSubmitted>
+        <dc:description>arXiv:2505.04897 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2505.04897</dc:identifier>
+        <prism:number>arXiv:2505.04897</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2337">
+       <rdf:value>Comment: 7 pages, 4 figures</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2330">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2330/Kobayashi - 2025 - CubeDAgger Improved Robustness of Interactive Imitation Learning without Violation of Dynamic Stabi.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2211.03393">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oh</foaf:surname>
+                        <foaf:givenName>Hanbit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sasaki</foaf:surname>
+                        <foaf:givenName>Hikaru</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Michael</foaf:surname>
+                        <foaf:givenName>Brendan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Matsubara</foaf:surname>
+                        <foaf:givenName>Takamitsu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2339"/>
+        <link:link rdf:resource="#item_2331"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Robotics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Bayesian Disturbance Injection: Robust Imitation Learning of Flexible Policies for Robot Manipulation</dc:title>
+        <dcterms:abstract>Humans demonstrate a variety of interesting behavioral characteristics when performing tasks, such as selecting between seemingly equivalent optimal actions, performing recovery actions when deviating from the optimal trajectory, or moderating actions in response to sensed risks. However, imitation learning, which attempts to teach robots to perform these same tasks from observations of human demonstrations, often fails to capture such behavior. Specifically, commonly used learning algorithms embody inherent contradictions between the learning assumptions (e.g., single optimal action) and actual human behavior (e.g., multiple optimal actions), thereby limiting robot generalizability, applicability, and demonstration feasibility. To address this, this paper proposes designing imitation learning algorithms with a focus on utilizing human behavioral characteristics, thereby embodying principles for capturing and exploiting actual demonstrator behavioral characteristics. This paper presents the first imitation learning framework, Bayesian Disturbance Injection (BDI), that typifies human behavioral characteristics by incorporating model flexibility, robustification, and risk sensitivity. Bayesian inference is used to learn flexible non-parametric multi-action policies, while simultaneously robustifying policies by injecting risk-sensitive disturbances to induce human recovery action and ensuring demonstration feasibility. Our method is evaluated through risk-sensitive simulations and real-robot experiments (e.g., table-sweep task, shaft-reach task and shaft-insertion task) using the UR5e 6-DOF robotic arm, to demonstrate the improved characterisation of behavior. Results show significant improvement in task performance, through improved flexibility, robustness as well as demonstration feasibility.</dcterms:abstract>
+        <dc:date>2022-11-07</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Bayesian Disturbance Injection</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2211.03393</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 10:22:17</dcterms:dateSubmitted>
+        <dc:description>arXiv:2211.03393 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2211.03393</dc:identifier>
+        <prism:number>arXiv:2211.03393</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2339">
+        <rdf:value>Comment: 69 pages, 9 figures, accepted by Elsevier Neural Networks - Journal</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2331">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2331/Oh et al. - 2022 - Bayesian Disturbance Injection Robust Imitation Learning of Flexible Policies for Robot Manipulatio.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/document/10539010/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1545-5955,%201558-3783"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Weiyong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zeng</foaf:surname>
+                        <foaf:givenName>Chao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhan</foaf:surname>
+                        <foaf:givenName>Hong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Chenguang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2332"/>
+        <dc:title>A Novel Robust Imitation Learning Framework for Complex Skills With Limited Demonstrations</dc:title>
+        <dcterms:abstract>Imitation learning allows us to directly encode manipulation skills based on human demonstrations, facilitating rapid transfer of skills without any expert knowledge. Autonomous dynamic systems (DS) offer reliable stability and time-independence though sacrificing part of accuracy, and are increasingly attractive as an encoding method. As unstructured environments become more challenging, skill trajectories become more complex, and various disturbances are encountered, existing state-of-the-art encoding methods struggle to adapt to these complex tasks. This paper introduces a novel robust DS-based framework for learning skills in complex tasks, which consists of trajectory regularization, adaptive segmentation, skill modeling, and skill organization based on new task requirements. It achieves a task-level generalization so that the operator only needs to focus on the semantic deconstruction of a task. Additionally, we propose an online modulation policy for the skill decision engine to address two types of disturbances: enhancing convergence speed for large-scale disturbances and improving fitting capability for small-scale disturbances while still keeping stability. To evaluate the effectiveness of the proposed framework, we conduct various comparison experiments in simulation and a real-world sugar-scooping task to assess the generalization performance and the ability of resistance to disturbances.</dcterms:abstract>
+        <dc:date>2025</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10539010/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 10:22:19</dcterms:dateSubmitted>
+        <dc:rights>https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html</dc:rights>
+        <bib:pages>3947-3959</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1545-5955,%201558-3783">
+        <prism:volume>22</prism:volume>
+        <dc:title>IEEE Transactions on Automation Science and Engineering</dc:title>
+        <dc:identifier>DOI 10.1109/TASE.2024.3403833</dc:identifier>
+        <dcterms:alternative>IEEE Trans. Automat. Sci. Eng.</dcterms:alternative>
+        <dc:identifier>ISSN 1545-5955, 1558-3783</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_2332">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2332/Wang et al. - 2025 - A Novel Robust Imitation Learning Framework for Complex Skills With Limited Demonstrations.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2409.18330">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ortiz</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dedieu</foaf:surname>
+                        <foaf:givenName>Antoine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lehrach</foaf:surname>
+                        <foaf:givenName>Wolfgang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guntupalli</foaf:surname>
+                        <foaf:givenName>Swaroop</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wendelken</foaf:surname>
+                        <foaf:givenName>Carter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Humayun</foaf:surname>
+                        <foaf:givenName>Ahmad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Guangyao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Swaminathan</foaf:surname>
+                        <foaf:givenName>Sivaramakrishnan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lázaro-Gredilla</foaf:surname>
+                        <foaf:givenName>Miguel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murphy</foaf:surname>
+                        <foaf:givenName>Kevin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2343"/>
+        <link:link rdf:resource="#item_2341"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>DMC-VB: A Benchmark for Representation Learning for Control with Visual Distractors</dc:title>
+        <dcterms:abstract>Learning from previously collected data via behavioral cloning or offline reinforcement learning (RL) is a powerful recipe for scaling generalist agents by avoiding the need for expensive online learning. Despite strong generalization in some respects, agents are often remarkably brittle to minor visual variations in control-irrelevant factors such as the background or camera viewpoint. In this paper, we present the DeepMind Control Vision Benchmark (DMC-VB), a dataset collected in the DeepMind Control Suite to evaluate the robustness of offline RL agents for solving continuous control tasks from visual input in the presence of visual distractors. In contrast to prior works, our dataset (a) combines locomotion and navigation tasks of varying difficulties, (b) includes static and dynamic visual variations, (c) considers data generated by policies with different skill levels, (d) systematically returns pairs of state and pixel observation, (e) is an order of magnitude larger, and (f) includes tasks with hidden goals. Accompanying our dataset, we propose three benchmarks to evaluate representation learning methods for pretraining, and carry out experiments on several recently proposed methods. First, we find that pretrained representations do not help policy learning on DMC-VB, and we highlight a large representation gap between policies learned on pixel observations and on states. Second, we demonstrate when expert data is limited, policy learning can benefit from representations pretrained on (a) suboptimal data, and (b) tasks with stochastic hidden goals. Our dataset and benchmark code to train and evaluate agents are available at https://github.com/google-deepmind/dmc_vision_benchmark.</dcterms:abstract>
+        <dc:date>2024-09-26</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>DMC-VB</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2409.18330</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 13:10:11</dcterms:dateSubmitted>
+        <dc:description>arXiv:2409.18330 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2409.18330</dc:identifier>
+        <prism:number>arXiv:2409.18330</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2343">
+        <rdf:value>Comment: NeurIPS 2024 Datasets and Benchmarks Track. Dataset available at: https://github.com/google-deepmind/dmc_vision_benchmark</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2341">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2341/Ortiz et al. - 2024 - DMC-VB A Benchmark for Representation Learning for Control with Visual Distractors.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1801.00690">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tassa</foaf:surname>
+                        <foaf:givenName>Yuval</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Doron</foaf:surname>
+                        <foaf:givenName>Yotam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muldal</foaf:surname>
+                        <foaf:givenName>Alistair</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Erez</foaf:surname>
+                        <foaf:givenName>Tom</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Yazhe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Casas</foaf:surname>
+                        <foaf:givenName>Diego de Las</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Budden</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdolmaleki</foaf:surname>
+                        <foaf:givenName>Abbas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Merel</foaf:surname>
+                        <foaf:givenName>Josh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lefrancq</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lillicrap</foaf:surname>
+                        <foaf:givenName>Timothy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riedmiller</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2380"/>
+        <link:link rdf:resource="#item_2378"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>DeepMind Control Suite</dc:title>
+        <dcterms:abstract>The DeepMind Control Suite is a set of continuous control tasks with a standardised structure and interpretable rewards, intended to serve as performance benchmarks for reinforcement learning agents. The tasks are written in Python and powered by the MuJoCo physics engine, making them easy to use and modify. We include benchmarks for several learning algorithms. The Control Suite is publicly available at github.com/deepmind/dm_control. A video summary of all tasks is available at youtu.be/rAai4QzcYbs.</dcterms:abstract>
+        <dc:date>2018-01-02</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1801.00690</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-12-22 14:50:15</dcterms:dateSubmitted>
+        <dc:description>arXiv:1801.00690 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1801.00690</dc:identifier>
+        <prism:number>arXiv:1801.00690</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2380">
+       <rdf:value>Comment: 24 pages, 7 figures, 2 tables</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2378">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2378/Tassa et al. - 2018 - DeepMind Control Suite.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://dl.acm.org/doi/10.1145/3054912">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0360-0300,%201557-7341"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hussein</foaf:surname>
+                        <foaf:givenName>Ahmed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gaber</foaf:surname>
+                        <foaf:givenName>Mohamed Medhat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Elyan</foaf:surname>
+                        <foaf:givenName>Eyad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jayne</foaf:surname>
+                        <foaf:givenName>Chrisina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2434"/>
+        <dc:title>Imitation Learning: A Survey of Learning Methods</dc:title>
+        <dcterms:abstract>Imitation learning techniques aim to mimic human behavior in a given task. An agent (a learning machine) is trained to perform a task from demonstrations by learning a mapping between observations and actions. The idea of teaching by imitation has been around for many years; however, the field is gaining attention recently due to advances in computing and sensing as well as rising demand for intelligent applications. The paradigm of learning by imitation is gaining popularity because it facilitates teaching complex tasks with minimal expert knowledge of the tasks. Generic imitation learning methods could potentially reduce the problem of teaching a task to that of providing demonstrations, without the need for explicit programming or designing reward functions specific to the task. Modern sensors are able to collect and transmit high volumes of data rapidly, and processors with high computational power allow fast processing that maps the sensory data to actions in a timely manner. This opens the door for many potential AI applications that require real-time perception and reaction such as humanoid robots, self-driving vehicles, human computer interaction, and computer games, to name a few. However, specialized algorithms are needed to effectively and robustly learn models as learning by imitation poses its own set of challenges. In this article, we survey imitation learning methods and present design options in different steps of the learning process. We introduce a background and motivation for the field as well as highlight challenges specific to the imitation problem. Methods for designing and evaluating imitation learning tasks are categorized and reviewed. Special attention is given to learning methods in robotics and games as these domains are the most popular in the literature and provide a wide array of problems and methodologies. We extensively discuss combining imitation learning approaches using different sources and methods, as well as incorporating other motion learning methods to enhance imitation. We also discuss the potential impact on industry, present major applications, and highlight current and future research directions.</dcterms:abstract>
+        <dc:date>2018-03-31</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Imitation Learning</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dl.acm.org/doi/10.1145/3054912</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-05 13:14:32</dcterms:dateSubmitted>
+        <bib:pages>1-35</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0360-0300,%201557-7341">
+        <prism:volume>50</prism:volume>
+        <dc:title>ACM Computing Surveys</dc:title>
+        <dc:identifier>DOI 10.1145/3054912</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>ACM Comput. Surv.</dcterms:alternative>
+        <dc:identifier>ISSN 0360-0300, 1557-7341</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_2434">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2434/Hussein et al. - 2018 - Imitation Learning A Survey of Learning Methods.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_2466">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Efroni</foaf:surname>
+                        <foaf:givenName>Yonathan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Misra</foaf:surname>
+                        <foaf:givenName>Dipendra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krishnamurthy</foaf:surname>
+                        <foaf:givenName>Akshay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agarwal</foaf:surname>
+                        <foaf:givenName>Alekh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langford</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2465"/>
+        <dc:title>PROVABLE RL WITH EXOGENOUS DISTRACTORS VIA MULTISTEP INVERSE DYNAMICS</dc:title>
+        <dcterms:abstract>Many real-world applications of reinforcement learning (RL) require the agent to deal with high-dimensional observations such as those generated from a megapixel camera. Prior work has addressed such problems with representation learning, through which the agent can provably extract endogenous, latent state information from raw observations and subsequently plan efﬁciently. However, such approaches can fail in the presence of temporally correlated noise in the observations, a phenomenon that is common in practice. We initiate the formal study of latent state discovery in the presence of such exogenous noise sources by proposing a new model, the Exogenous Block MDP (EX-BMDP), for rich observation RL. We start by establishing several negative results, by highlighting failure cases of prior representation learning based approaches. Then, we introduce the Predictive Path Elimination (PPE) algorithm, that learns a generalization of inverse dynamics and is provably sample and computationally efﬁcient in EX-BMDPs when the endogenous state dynamics are near deterministic. The sample complexity of PPE depends polynomially on the size of the latent endogenous state space while not directly depending on the size of the observation space, nor the exogenous state space. We provide experiments on challenging exploration problems which show that our approach works empirically.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2465">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2465/Efroni et al. - 2022 - PROVABLE RL WITH EXOGENOUS DISTRACTORS VIA MULTISTEP INVERSE DYNAMICS.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_2695">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Du</foaf:surname>
+                        <foaf:givenName>Simon S</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krishnamurthy</foaf:surname>
+                        <foaf:givenName>Akshay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jiang</foaf:surname>
+                        <foaf:givenName>Nan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agarwal</foaf:surname>
+                        <foaf:givenName>Alekh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dudík</foaf:surname>
+                        <foaf:givenName>Miroslav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langford</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2694"/>
+        <dc:title>Provably efficient RL with Rich Observations via Latent State Decoding</dc:title>
+        <dcterms:abstract>We study the exploration problem in episodic MDPs with rich observations generated from a small number of latent states. Under certain identiﬁability assumptions, we demonstrate how to estimate a mapping from the observations to latent states inductively through a sequence of regression and clustering steps—where previously decoded latent states provide labels for later regression problems—and use it to construct good exploration policies. We provide ﬁnite-sample guarantees on the quality of the learned state decoding function and exploration policies, and complement our theory with an empirical evaluation on a class of hard exploration problems. Our method exponentially improves over Q-learning with naı¨ve exploration, even when Q-learning has cheating access to latent states.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2694">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2694/Du et al. - Provably efficient RL with Rich Observations via Latent State Decoding.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2502.00379">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nikulin</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zisman</foaf:surname>
+                        <foaf:givenName>Ilya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tarasov</foaf:surname>
+                        <foaf:givenName>Denis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lyubaykin</foaf:surname>
+                        <foaf:givenName>Nikita</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polubarov</foaf:surname>
+                        <foaf:givenName>Andrei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kiselev</foaf:surname>
+                        <foaf:givenName>Igor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kurenkov</foaf:surname>
+                        <foaf:givenName>Vladislav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2750"/>
+        <link:link rdf:resource="#item_2748"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Computer Vision and Pattern Recognition</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Latent Action Learning Requires Supervision in the Presence of Distractors</dc:title>
+        <dcterms:abstract>Recently, latent action learning, pioneered by Latent Action Policies (LAPO), have shown remarkable pre-training efficiency on observationonly data, offering potential for leveraging vast amounts of video available on the web for embodied AI. However, prior work has focused on distractor-free data, where changes between observations are primarily explained by ground-truth actions. Unfortunately, real-world videos contain action-correlated distractors that may hinder latent action learning. Using Distracting Control Suite (DCS) we empirically investigate the effect of distractors on latent action learning and demonstrate that LAPO struggle in such scenario. We propose LAOM, a simple LAPO modification that improves the quality of latent actions by 8x, as measured by linear probing. Importantly, we show that providing supervision with ground-truth actions, as few as 2.5% of the full dataset, during latent action learning improves downstream performance by 4.2x on average. Our findings suggest that integrating supervision during Latent Action Models (LAM) training is critical in the presence of distractors, challenging the conventional pipeline of first learning LAM and only then decoding from latent to ground-truth actions.</dcterms:abstract>
+        <dc:date>2025-06-12</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2502.00379</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-16 10:20:33</dcterms:dateSubmitted>
+        <dc:description>arXiv:2502.00379 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2502.00379</dc:identifier>
+        <prism:number>arXiv:2502.00379</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_2750">
+        <rdf:value>Comment: ICML 2025, Poster, Project Page: https://laom.dunnolab.ai/, Source code: https://github.com/dunnolab/laom</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_2748">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2748/Nikulin et al. - 2025 - Latent Action Learning Requires Supervision in the Presence of Distractors.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_13">
+        <dc:title>Action Robust Design</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1735"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_17">
+        <dc:title>Dataset</dc:title>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2409.18330"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1801.00690"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_12">
+        <dc:title>Disturbance Robust Design</dc:title>
+        <dcterms:hasPart rdf:resource="https://direct.mit.edu/neco/article/17/2/335-359/6920"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_15">
+        <dc:title>Imitation Learning</dc:title>
+        <dcterms:hasPart rdf:resource="#collection_16"/>
+        <dcterms:hasPart rdf:resource="#item_1793"/>
+        <dcterms:hasPart rdf:resource="#item_2032"/>
+        <dcterms:hasPart rdf:resource="https://ieeexplore.ieee.org/document/10602544/"/>
+        <dcterms:hasPart rdf:resource="https://dl.acm.org/doi/10.1145/3054912"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_16">
+        <dc:title>Robust IL</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1793"/>
+        <dcterms:hasPart rdf:resource="https://ojs.aaai.org/index.php/AAAI/article/view/29265"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2204.11446"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2110.03684"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1703.01703"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2507.22380"/>
+        <dcterms:hasPart rdf:resource="https://www.jair.org/index.php/jair/article/view/15819"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2505.04897"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2211.03393"/>
+        <dcterms:hasPart rdf:resource="https://ieeexplore.ieee.org/document/10539010/"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_18">
+        <dc:title>MDP</dc:title>
+        <dcterms:hasPart rdf:resource="#item_2466"/>
+        <dcterms:hasPart rdf:resource="#item_2695"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_14">
+        <dc:title>Observation Robust Design</dc:title>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/1702.02284"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_11">
+        <dc:title>Transition and Reward Robust Designs</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1498"/>
+        <dcterms:hasPart rdf:resource="#item_1532"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-262-25691-9"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_19">
+        <dc:title>Visual-Distractor</dc:title>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2502.00379"/>
+    </z:Collection>
+</rdf:RDF>
