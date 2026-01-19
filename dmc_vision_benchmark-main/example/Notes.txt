@@ -1,0 +1,50 @@
+unset DISPLAY
+export MUJOCO_GL=egl
+export PYOPENGL_PLATFORM=egl
+xvfb-run -a python example/example.py
+
+<_VariantDataset element_spec={
+    'action': TensorSpec(shape=(6,), dtype=tf.float64, name=None), 
+    'discount': TensorSpec(shape=(), dtype=tf.float64, name=None), 
+    'is_first': TensorSpec(shape=(), dtype=tf.bool, name=None), 
+    'is_last': TensorSpec(shape=(), dtype=tf.bool, name=None), 
+    'is_terminal': TensorSpec(shape=(), dtype=tf.bool, name=None),
+    'observation': {'height': TensorSpec(shape=(), dtype=tf.float64, name=None), 
+                    'level_info': TensorSpec(shape=(), dtype=tf.int64, name=None), 
+                    'orientations': TensorSpec(shape=(14,), dtype=tf.float64, name=None), 
+                    'pixels': TensorSpec(shape=(64, 64, 3), dtype=tf.uint8, name=None), 
+                    'velocity': TensorSpec(shape=(9,), dtype=tf.float64, name=None)}, 
+    'reward': TensorSpec(shape=(), dtype=tf.float64, name=None)}>
+
+<_FlatMapDataset element_spec={'action': TensorSpec(shape=(3, 6), dtype=tf.float64, name=None), 'discount': TensorSpec(shape=(3,), dtype=tf.float64, name=None), 'is_first': TensorSpec(shape=(3,), dtype=tf.bool, name=None), 'is_last': TensorSpec(shape=(3,), dtype=tf.bool, name=None), 'is_terminal': TensorSpec(shape=(3,), dtype=tf.bool, name=None), 'observation': {'height': TensorSpec(shape=(3,), dtype=tf.float64, name=None), 'level_info': TensorSpec(shape=(3,), dtype=tf.int64, name=None), 'orientations': TensorSpec(shape=(3, 14), dtype=tf.float64, name=None), 'pixels': TensorSpec(shape=(3, 64, 64, 3), dtype=tf.uint8, name=None), 'velocity': TensorSpec(shape=(3, 9), dtype=tf.float64, name=None)}, 'reward': TensorSpec(shape=(3,), dtype=tf.float64, name=None)}>
+
+dataset: 
++ state-based model: use the state (velocity and height) => easy but not practical.
++ pixel-based model: use 2D images. => what we are going to do.
+
+trunk into a stack of 3 frames: predict the action given 3 observations (3 images).
+#### Batch element and sizes:
+obs (256, 3, 64, 64, 3)
+actions (256, 1, 6)
+
+visual encoder + model?
+
+gcloud storage cp -r gs://dmc_vision_benchmark/kubric_movi-d/ /scratch/cor54gyp/dmc_vision_bench_data/dmc_vision_benchmark
+
+export DISPLAY=:1
+export __GL_SYNC_TO_VBLANK=0
+export __NV_PRIME_RENDER_OFFLOAD=1
+
+SIZEW=1280
+SIZEH=720
+DEPTH=24
+DPI=96
+
+
+Xvfb :1 -ac -screen 0 ${SIZEW}x${SIZEH}x${DEPTH} -dpi ${DPI} \
+  +extension RANDR +extension GLX +iglx +extension MIT-SHM +render \
+  -nolisten tcp -noreset -shmem &
+
+until [[ -S /tmp/.X11-unix/X1 ]]; do sleep 1; done
+
+xdpyinfo >/dev/null && echo "Xvfb is running"
